@@ -13,7 +13,6 @@ function getAllTags() {
       const [tag, date] = line.split(",");
       return { date: new Date(date), tag };
     });
-  console.log("result", result);
   return result;
 }
 
